@@ -1,0 +1,62 @@
+.menu{
+    display: flex;
+    box-sizing: content-box;
+    min-height: 64px;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: #fff;
+    border-bottom: solid 5px #777;
+    font-size: 14px;
+    padding: 0 24px;
+   
+    
+    
+}
+
+.menu div{
+    padding: 7px;
+}
+.menu nav{
+    align-self: left;
+
+}
+.menu nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: #777;
+    font-weight: 0;
+}
+
+.menu nav a:visited{
+    text-decoration: none;
+    
+}
+
+.botaoPlano{
+    background-color: rgb(255, 98, 80);
+    color: white;
+    border-radius: 5px;
+    height: 100%;
+    border-style: none;
+    box-shadow: 2px 1px rgb(93, 89, 89);
+    
+}
+
+.botaoPlano:hover{
+    box-shadow: 3px 2px 1px 0px rgb(93, 89, 89);
+}
+
+
+
+ .icones{
+     flex-grow: 1;
+     display: flex;
+     justify-content: right;
+ }
+
+ .icones div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 2.0em;
+ }

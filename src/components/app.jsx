@@ -1,5 +1,7 @@
+import Menu from "./Menu"
+
 export const App = () => {
   return (
-    <h1>Olá</h1>
+    <Menu />
   )
 }
