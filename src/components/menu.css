@@ -25,6 +25,7 @@
     text-decoration: none;
     color: #777;
     font-weight: 0;
+    
 }
 
 .menu nav a:visited{
@@ -52,11 +53,28 @@
      flex-grow: 1;
      display: flex;
      justify-content: right;
+     height: 100%;
+     
+     
  }
 
  .icones div{
      display: flex;
      justify-content: center;
      align-items: center;
-     height: 2.0em;
+     height: 2.5em;
+     margin-left: 10px;
+ }
+
+ .iconsLink{
+    color: none;
+    
+ }
+
+ .iconsLink{
+     color: none;
+ }
+
+ .icons{
+     height: 100%;
  }
